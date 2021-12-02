@@ -122,7 +122,9 @@
   align-items: center;
 }
 
-.list__item > * {
+.list__item > .input,
+.list__item > .input_text__label,
+.list__item > .button {
   vertical-align: middle;
 }
 
